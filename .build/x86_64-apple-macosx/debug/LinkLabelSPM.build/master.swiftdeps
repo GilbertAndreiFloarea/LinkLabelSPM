@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)"
+options: "c2657eeeb6cab01edeeb293e79979fc400d803e13185dc0ba38a236d5699d78f"
+build_start_time: [1642798774, 556051015]
+build_end_time: [1642798778, 101431846]
+inputs:
+  "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/Sources/LinkLabelSPM/LinkLabel.swift": [1642798758, 574741363]

@@ -1,0 +1,633 @@
+{
+  "kind": "Root",
+  "name": "TopLevel",
+  "printedName": "TopLevel",
+  "children": [
+    {
+      "kind": "Import",
+      "name": "Foundation",
+      "printedName": "Foundation",
+      "declKind": "Import",
+      "moduleName": "LinkLabelSPM"
+    },
+    {
+      "kind": "Import",
+      "name": "SwiftOnoneSupport",
+      "printedName": "SwiftOnoneSupport",
+      "declKind": "Import",
+      "moduleName": "LinkLabelSPM"
+    },
+    {
+      "kind": "Import",
+      "name": "UIKit",
+      "printedName": "UIKit",
+      "declKind": "Import",
+      "moduleName": "LinkLabelSPM"
+    },
+    {
+      "kind": "Import",
+      "name": "_Concurrency",
+      "printedName": "_Concurrency",
+      "declKind": "Import",
+      "moduleName": "LinkLabelSPM"
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "LinkLabel",
+      "printedName": "LinkLabel",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "customLinkAttributes",
+          "printedName": "customLinkAttributes",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Dictionary",
+              "printedName": "[Foundation.NSAttributedString.Key : Any]",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Key",
+                  "printedName": "Foundation.NSAttributedString.Key",
+                  "usr": "c:@T@NSAttributedStringKey"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "ProtocolComposition",
+                  "printedName": "Any"
+                }
+              ],
+              "usr": "s:SD"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvp",
+          "mangledName": "$s12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvp",
+          "moduleName": "LinkLabelSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom",
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "fixedbinaryorder": 0,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Key",
+                      "printedName": "Foundation.NSAttributedString.Key",
+                      "usr": "c:@T@NSAttributedStringKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvg",
+              "mangledName": "$s12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvg",
+              "moduleName": "LinkLabelSPM",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Dictionary",
+                  "printedName": "[Foundation.NSAttributedString.Key : Any]",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "Key",
+                      "printedName": "Foundation.NSAttributedString.Key",
+                      "usr": "c:@T@NSAttributedStringKey"
+                    },
+                    {
+                      "kind": "TypeNominal",
+                      "name": "ProtocolComposition",
+                      "printedName": "Any"
+                    }
+                  ],
+                  "usr": "s:SD"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvs",
+              "mangledName": "$s12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvs",
+              "moduleName": "LinkLabelSPM",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "set"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Modify",
+              "printedName": "Modify()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvM",
+              "mangledName": "$s12LinkLabelSPM0aB0C06customA10AttributesSDySo21NSAttributedStringKeyaypGvM",
+              "moduleName": "LinkLabelSPM",
+              "implicit": true,
+              "isOpen": true,
+              "accessorKind": "_modify"
+            }
+          ]
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(coder:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LinkLabel",
+              "printedName": "LinkLabelSPM.LinkLabel",
+              "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "NSCoder",
+              "printedName": "Foundation.NSCoder",
+              "usr": "c:objc(cs)NSCoder"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(im)initWithCoder:",
+          "mangledName": "$s12LinkLabelSPM0aB0C5coderACSo7NSCoderC_tcfc",
+          "moduleName": "LinkLabelSPM",
+          "overriding": true,
+          "objc_name": "initWithCoder:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Required"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Constructor",
+          "name": "init",
+          "printedName": "init(frame:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "LinkLabel",
+              "printedName": "LinkLabelSPM.LinkLabel",
+              "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGRect",
+              "printedName": "CoreGraphics.CGRect",
+              "usr": "c:@S@CGRect"
+            }
+          ],
+          "declKind": "Constructor",
+          "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(im)initWithFrame:",
+          "mangledName": "$s12LinkLabelSPM0aB0C5frameACSo6CGRectV_tcfc",
+          "moduleName": "LinkLabelSPM",
+          "overriding": true,
+          "objc_name": "initWithFrame:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "init_kind": "Designated"
+        },
+        {
+          "kind": "Function",
+          "name": "setup",
+          "printedName": "setup()",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Void",
+              "printedName": "()"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "s:12LinkLabelSPM0aB0C5setupyyF",
+          "mangledName": "$s12LinkLabelSPM0aB0C5setupyyF",
+          "moduleName": "LinkLabelSPM",
+          "isOpen": true,
+          "declAttributes": [
+            "Custom"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Function",
+          "name": "point",
+          "printedName": "point(inside:with:)",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Bool",
+              "printedName": "Swift.Bool",
+              "usr": "s:Sb"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "CGPoint",
+              "printedName": "CoreGraphics.CGPoint",
+              "usr": "c:@S@CGPoint"
+            },
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "UIKit.UIEvent?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "UIEvent",
+                  "printedName": "UIKit.UIEvent",
+                  "usr": "c:objc(cs)UIEvent"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Func",
+          "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(im)pointInside:withEvent:",
+          "mangledName": "$s12LinkLabelSPM0aB0C5point6inside4withSbSo7CGPointV_So7UIEventCSgtF",
+          "moduleName": "LinkLabelSPM",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "pointInside:withEvent:",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "funcSelfKind": "NonMutating"
+        },
+        {
+          "kind": "Var",
+          "name": "attributedText",
+          "printedName": "attributedText",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Optional",
+              "printedName": "Foundation.NSAttributedString?",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSAttributedString",
+                  "printedName": "Foundation.NSAttributedString",
+                  "usr": "c:objc(cs)NSAttributedString"
+                }
+              ],
+              "usr": "s:Sq"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(py)attributedText",
+          "mangledName": "$s12LinkLabelSPM0aB0C14attributedTextSo18NSAttributedStringCSgvp",
+          "moduleName": "LinkLabelSPM",
+          "overriding": true,
+          "isOpen": true,
+          "objc_name": "attributedText",
+          "declAttributes": [
+            "Dynamic",
+            "ObjC",
+            "Custom",
+            "Override"
+          ],
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSAttributedString?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSAttributedString",
+                      "printedName": "Foundation.NSAttributedString",
+                      "usr": "c:objc(cs)NSAttributedString"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(im)attributedText",
+              "mangledName": "$s12LinkLabelSPM0aB0C14attributedTextSo18NSAttributedStringCSgvg",
+              "moduleName": "LinkLabelSPM",
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "attributedText",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom",
+                "Override"
+              ],
+              "accessorKind": "get"
+            },
+            {
+              "kind": "Accessor",
+              "name": "Set",
+              "printedName": "Set()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Void",
+                  "printedName": "()"
+                },
+                {
+                  "kind": "TypeNominal",
+                  "name": "Optional",
+                  "printedName": "Foundation.NSAttributedString?",
+                  "children": [
+                    {
+                      "kind": "TypeNominal",
+                      "name": "NSAttributedString",
+                      "printedName": "Foundation.NSAttributedString",
+                      "usr": "c:objc(cs)NSAttributedString"
+                    }
+                  ],
+                  "usr": "s:Sq"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel(im)setAttributedText:",
+              "mangledName": "$s12LinkLabelSPM0aB0C14attributedTextSo18NSAttributedStringCSgvs",
+              "moduleName": "LinkLabelSPM",
+              "overriding": true,
+              "isOpen": true,
+              "objc_name": "setAttributedText:",
+              "declAttributes": [
+                "Dynamic",
+                "ObjC",
+                "Custom",
+                "Override"
+              ],
+              "accessorKind": "set"
+            }
+          ]
+        }
+      ],
+      "declKind": "Class",
+      "usr": "c:@M@LinkLabelSPM@objc(cs)LinkLabel",
+      "mangledName": "$s12LinkLabelSPM0aB0C",
+      "moduleName": "LinkLabelSPM",
+      "isOpen": true,
+      "declAttributes": [
+        "Custom",
+        "ObjC"
+      ],
+      "superclassUsr": "c:objc(cs)UILabel",
+      "hasMissingDesignatedInitializers": true,
+      "inheritsConvenienceInitializers": true,
+      "superclassNames": [
+        "UIKit.UILabel",
+        "UIKit.UIView",
+        "UIKit.UIResponder",
+        "ObjectiveC.NSObject"
+      ],
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CVarArg",
+          "printedName": "CVarArg",
+          "usr": "s:s7CVarArgP",
+          "mangledName": "$ss7CVarArgP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObservingPublishing",
+          "printedName": "_KeyValueCodingAndObservingPublishing",
+          "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+          "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_KeyValueCodingAndObserving",
+          "printedName": "_KeyValueCodingAndObserving",
+          "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+          "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomStringConvertible",
+          "printedName": "CustomStringConvertible",
+          "usr": "s:s23CustomStringConvertibleP",
+          "mangledName": "$ss23CustomStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "CustomDebugStringConvertible",
+          "printedName": "CustomDebugStringConvertible",
+          "usr": "s:s28CustomDebugStringConvertibleP",
+          "mangledName": "$ss28CustomDebugStringConvertibleP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "__DefaultCustomPlaygroundQuickLookable",
+          "printedName": "__DefaultCustomPlaygroundQuickLookable",
+          "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+          "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+        }
+      ]
+    },
+    {
+      "kind": "TypeDecl",
+      "name": "Key",
+      "printedName": "Key",
+      "children": [
+        {
+          "kind": "Var",
+          "name": "customLink",
+          "printedName": "customLink",
+          "children": [
+            {
+              "kind": "TypeNominal",
+              "name": "Key",
+              "printedName": "Foundation.NSAttributedString.Key",
+              "usr": "c:@T@NSAttributedStringKey"
+            }
+          ],
+          "declKind": "Var",
+          "usr": "s:So21NSAttributedStringKeya12LinkLabelSPME06customD0ABvpZ",
+          "mangledName": "$sSo21NSAttributedStringKeya12LinkLabelSPME06customD0ABvpZ",
+          "moduleName": "LinkLabelSPM",
+          "static": true,
+          "declAttributes": [
+            "HasInitialValue",
+            "HasStorage"
+          ],
+          "isLet": true,
+          "hasStorage": true,
+          "accessors": [
+            {
+              "kind": "Accessor",
+              "name": "Get",
+              "printedName": "Get()",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "Key",
+                  "printedName": "Foundation.NSAttributedString.Key",
+                  "usr": "c:@T@NSAttributedStringKey"
+                }
+              ],
+              "declKind": "Accessor",
+              "usr": "s:So21NSAttributedStringKeya12LinkLabelSPME06customD0ABvgZ",
+              "mangledName": "$sSo21NSAttributedStringKeya12LinkLabelSPME06customD0ABvgZ",
+              "moduleName": "LinkLabelSPM",
+              "static": true,
+              "implicit": true,
+              "declAttributes": [
+                "Transparent"
+              ],
+              "accessorKind": "get"
+            }
+          ]
+        }
+      ],
+      "declKind": "Struct",
+      "usr": "c:@T@NSAttributedStringKey",
+      "moduleName": "Foundation",
+      "declAttributes": [
+        "SynthesizedProtocol",
+        "SynthesizedProtocol",
+        "SynthesizedProtocol",
+        "SynthesizedProtocol",
+        "SynthesizedProtocol"
+      ],
+      "isExternal": true,
+      "conformances": [
+        {
+          "kind": "Conformance",
+          "name": "_ObjectiveCBridgeable",
+          "printedName": "_ObjectiveCBridgeable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "_ObjectiveCType",
+              "printedName": "_ObjectiveCType",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "NSString",
+                  "printedName": "Foundation.NSString",
+                  "usr": "c:objc(cs)NSString"
+                }
+              ]
+            }
+          ],
+          "usr": "s:s21_ObjectiveCBridgeableP",
+          "mangledName": "$ss21_ObjectiveCBridgeableP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Hashable",
+          "printedName": "Hashable",
+          "usr": "s:SH",
+          "mangledName": "$sSH"
+        },
+        {
+          "kind": "Conformance",
+          "name": "Equatable",
+          "printedName": "Equatable",
+          "usr": "s:SQ",
+          "mangledName": "$sSQ"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_SwiftNewtypeWrapper",
+          "printedName": "_SwiftNewtypeWrapper",
+          "usr": "s:s20_SwiftNewtypeWrapperP",
+          "mangledName": "$ss20_SwiftNewtypeWrapperP"
+        },
+        {
+          "kind": "Conformance",
+          "name": "RawRepresentable",
+          "printedName": "RawRepresentable",
+          "children": [
+            {
+              "kind": "TypeWitness",
+              "name": "RawValue",
+              "printedName": "RawValue",
+              "children": [
+                {
+                  "kind": "TypeNominal",
+                  "name": "String",
+                  "printedName": "Swift.String",
+                  "usr": "s:SS"
+                }
+              ]
+            }
+          ],
+          "usr": "s:SY",
+          "mangledName": "$sSY"
+        },
+        {
+          "kind": "Conformance",
+          "name": "_HasCustomAnyHashableRepresentation",
+          "printedName": "_HasCustomAnyHashableRepresentation",
+          "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+          "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+        }
+      ]
+    }
+  ],
+  "json_format_version": 6
+}
