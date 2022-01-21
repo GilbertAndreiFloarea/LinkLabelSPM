@@ -1,0 +1,4 @@
+module LinkLabelSPM {
+    header "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/LinkLabelSPM-Swift.h"
+    requires objc
+}
