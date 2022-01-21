@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/master.swiftdeps"
+  },
+  "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/Sources/LinkLabelSPM/LinkLabel.swift": {
+    "dependencies": "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/LinkLabel.d",
+    "object": "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/LinkLabel.swift.o",
+    "swiftmodule": "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/LinkLabel~partial.swiftmodule",
+    "swift-dependencies": "/Users/gilbertandreifloarea/Work/LinkLabelSwiftPM/.build/x86_64-apple-macosx/debug/LinkLabelSPM.build/LinkLabel.swiftdeps"
+  }
+}
